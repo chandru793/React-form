@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+}
+.innerContainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div{
+  /* width: 100vw; */
+  display: flex;
+  margin: 15px;
+}
+.h1{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  padding: 5px;
+  width: 200px;
+  border: 1px solid #b1b1b1;
+  outline: none;
+}
+.input:hover,
+.input:active,
+.input:focus{
+  border: 1px solid #000000;
+  outline: none;
+}
+@media only screen and (min-width:900px){
+  
+
+  .inputFirstName{
+    margin-left: 100px;
+  }
+
+  .inputEmail{
+    margin-left: 136px;
+  }
+
+  .inputPassword{
+    margin-left: 106px;
+  }
+
+
+  .divRight{
+    margin-left: 50px;
+  }
+
+  .inputLastName{
+    margin-left: 100px;
+  }
+
+  .inputConfirmPassword{
+    margin-left: 43px;
+  }
+
+
+
+  #emailInput{
+    width: 640px;
+  }
+
+  .div4{
+    margin-left: 15px;
+  }
+
+  .inputYear{
+    margin-left: 60px;
+  }
+
+  .month{
+    margin-left: 50px;
+  }
+  .inputMonth{
+    margin-left: 74px;
+  }
+}
+.select{
+  background-color: white;
+  width: 212px;
+}
+
+.register{
+  width: 100px;
+  padding: 5px;
+  color: #ffffff;
+  font-size: medium;
+  background: #5bb85b;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.register:hover,
+.register:focus{
+  transform: scale(1.1);
+}
+@media only screen and (max-width:900px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+  .innerContainer{
+    justify-content: start;
+    /* align-items: flex-start; */
+    margin-left: 10px;
+  }
+
+  .div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+  .divRight{
+    margin-top: 10px;
+  }
+  .register{
+    margin-top: 10px;
+  }
+}
