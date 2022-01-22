@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -123,7 +122,6 @@ class App extends Component {
             </div>
 
             <div className='inputYear'>
-              {/* <input type={"text"} /> */}
               <select id="mySelect" className='input select' required="true" onChange={this.yearPassed}>
                 <option value="--select--" selected>--Select-- </option>
                 <option value="2021">2021</option>
@@ -139,7 +137,6 @@ class App extends Component {
             </div>
 
             <div className='inputMonth'>
-              {/* <input type={"text"}/> */}
               <select id="mySelect" className='input select' required="true" onChange={this.monthPassed}>
                 <option value="--select--" selected>--Select--</option>
                 <option value="Jan">Jan</option>

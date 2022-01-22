@@ -16,7 +16,6 @@
   align-items: center;
 }
 .div{
-  /* width: 100vw; */
   display: flex;
   margin: 15px;
 }
@@ -113,7 +112,6 @@
   }
   .innerContainer{
     justify-content: start;
-    /* align-items: flex-start; */
     margin-left: 10px;
   }
 
