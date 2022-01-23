@@ -52,8 +52,9 @@ class App extends Component {
     })
   }
   handleClick = (event) =>{
-    document.write(JSON.stringify(this.state));
-    event.preventDefault()
+    event.preventDefault();
+    this.setState({
+      show:true
   }
   render() {
     return (
@@ -158,6 +159,9 @@ class App extends Component {
 
           <div className='div5 div'>
             <input type={"submit"} value={"Register"} className='register'/>
+          </div>
+          <div style={{whiteSpace:"pre"}}>
+            {this.state.show && JSON.stringify(this.state,null,2)}
           </div>
 
         </div>
